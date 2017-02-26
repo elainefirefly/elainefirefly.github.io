@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8"
     <title>Shuriken</title>
+    <style>
+      textarea {
+
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -12,21 +18,36 @@
     <section>
       <p><strong>I am a ninja.</strong> <em>Ssshhhhh!</em></p>
       <p>My weapon of choice? The shuriken. It goes without saying, "throw it out there,
-        and see what sticks."  Well, in this case -- <em>slices</em>. It also sounds like,
+        and see what sticks."  Well, in this case – <em>slices</em>. It also sounds like,
         <strong>"Sure, I can!"</strong>  So, why not?</p>
       <img src="images/shurikens.jpg" alt="serious paper cuts">
     </section>
     <section>
       <p>My shurikens come in many makeshift forms: some blunt, some scrappy, some bloody,
-        some even falls apart -- but it shall get better in time. This tiny, but magical
-        piece of the world wide web is my tribute to my shurikens -- the concept, inspiration,
+        some even falls apart – but it shall get better in time. This tiny, but magical
+        piece of the world wide web is my tribute to my shurikens – the concept, inspiration,
         and the story behind each one.</p>
       <p>You might have guessed by now<em>(or not)</em>, that my shurikens are my coding projects.
-        Here are some of my shurikens that I worked with in the past:</p>
+        Here are some of my shurikens that I worked with in the past:
         <ul>
           <li><a href="https://itunes.apple.com/us/app/uprompti/id822767958?mt=8">Uprompti</a></li>
           <li><a href="https://itunes.apple.com/us/app/divvy-up!/id603375269?mt=8">Divvy Up!</a></li>
         </ul>
+
+        If you click on the project link, it will take you to the iTunes Preview website.</p>
+      <p>The iTunes Preview website source code is good, as expected. It looks like it is pulling the data
+        from somewhere else, making the content dynamic.  Majority are javascript codes and style
+        sheets which produces the layout of the images and data. (Response to Release 1 #4)</p>
+    </section>
+    <section>
+        <form action="https://httpbin.org/post" method="post">
+          <fieldset>
+            <label>Comments: </label>
+            <br>
+            <textarea name="comments" cols="50" rows="10" placeholder="Type your comments here..."></textarea>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
     </section>
   </body>
 </html>
