@@ -1,9 +1,27 @@
+html {
+  background-image: url("images/backdrop.png");
+}
+
 body {
-  background-color: dimgray;
+  background-color: #ffffff;
   margin: 100px;
   font-family: sans-serif;
-  color: ivory;
+  color: #403e3f;
+  padding-left: 3%;
 }
+
+h1 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 4em;
+  margin-top: 5%;
+  padding-top: 3%;
+}
+
+h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 1.5em;
+}
+
 fieldset {
   position: relative;
   width: 60px;
